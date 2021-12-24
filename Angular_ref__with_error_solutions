@@ -1,0 +1,141 @@
+Angular
+
+https://platformengineer.com/install-angular-9-linux-ubuntu-debian-rhel-centos/
+
+
+
+$ npm install --global @angular/cli@9.0.0-rc.14
+$ ng update @angular/core@9 @angular/cli@9
+$ npm install --global @angular/cli
+$ npm install --global @angular/cli@stable
+$ npm install --global @angular/cli@next
+
+
+
+https://www.teclogiq.com/blog/angular-todo-application/
+
+
+
+https://www.teclogiq.com/blog/angular-todo-application/
+
+⠧ Installing packages...npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR! 
+npm ERR! While resolving: todocrud@0.0.0
+npm ERR! Found: jasmine-core@3.5.0
+npm ERR! node_modules/jasmine-core
+npm ERR!   dev jasmine-core@"~3.5.0" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer jasmine-core@">=3.8" from karma-jasmine-html-reporter@1.7.0
+npm ERR! node_modules/karma-jasmine-html-reporter
+npm ERR!   dev karma-jasmine-html-reporter@"^1.4.2" from the root project
+npm ERR! 
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR! 
+npm ERR! See /home/niks/.npm/eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/niks/.npm/_logs/2021-12-23T11_10_14_703Z-debug.log
+✖ Package install failed, see above.
+
+
+
+
+To Create Service in Angular
+
+ng genearte service djangoapi
+https://angular.io/tutorial/toh-pt4
+https://stackoverflow.com/questions/49946624/schematic-library-not-found-in-collection-schematics-angular
+
+
+src/app/app.component.ts:22:46 - error TS2339: Property 'subscribe' does not exist on type '() => Observable<any>'.
+
+“Cannot find name 'HttpHeaders'”
+
+
+error TS2304: Cannot find name 'Observable'.
+
+
+ERROR NullInjectorError: R3InjectorError(AppModule)[HttpClient -> HttpClient -> HttpClient]: 
+==> To fix above issue I follow "https://stackoverflow.com/questions/47236963/no-provider-for-httpclient"
+
+
+
+Access to XMLHttpRequest at 'http://127.0.0.1:8000/todoapp/api/todos/' from origin 'http://localhost:4200' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+app.component.ts:27 HttpErrorResponse {headers: HttpHeaders, status: 0, statusText: "Unknown Error", url: "http://127.0.0.1:8000/todoapp/api/todos/", ok: false, …}
+zone.js:2863 GET http://127.0.0.1:8000/todoapp/api/todos/ net::ERR_FAILED
+
+==> To fix above issue I have install == "django-cors-headers" library "pip3.7 install django-cors-headers"
+==> https://github.com/adamchainz/django-cors-headers
+
+
+
+
+src/app/app.component.ts:33:23 - error TS7006: Parameter 'todo' implicitly has an 'any' type.
+==> https://stackoverflow.com/questions/49433161/typescript-property-does-not-exist-on-type-never-but-function-works
+==> https://stackoverflow.com/questions/43064221/typescript-ts7006-parameter-xxx-implicitly-has-an-any-type?rq=1
+
+
+Typescript: TS7006: Parameter 'xxx' implicitly has an 'any' type
+==> https://stackoverflow.com/questions/43064221/typescript-ts7006-parameter-xxx-implicitly-has-an-any-type?rq=1
+
+
+
+
+https://jasonwatmore.com/post/2019/06/10/angular-8-user-registration-and-login-example-tutorial
+
+
+to generate component
+https://www.youtube.com/watch?v=gvWxMQ_Zios
+
+ng generate component todos
+
+CSS
+npm install bulma --save
+
+
+
+Install jQuery
+npm i --save-dev @types/jquery
+npm install --save jquery
+
+
+ng add @angular/material ==> To edit form
+
+
+
+http://127.0.0.1:8000/todoapp/api/todos/
+https://jasonwatmore.com/post/2019/06/10/angular-8-user-registration-and-login-example-tutorial
+https://www.tutorialspoint.com/angular8/angular8_forms.htm
+https://www.google.com/search?q=mark+as+complete+in+angular+todoist&oq=mark+as+complete+in+angular+todo&aqs=chrome.1.69i57j33i160l2.10949j0j7&sourceid=chrome&ie=UTF-8
+https://todoist.com/help/articles/complete-or-uncomplete-a-task
+https://www.youtube.com/watch?v=kXxmhFk6STc
+https://www.youtube.com/watch?v=EvUmQT2xsaI
+
+
+https://www.youtube.com/watch?v=z_H-oxQVsPw
+
+
+cd /home/niks/Workspace/Practical_Exam/ToDoApp
+. ~/Virtual_ENV/django_todo_env/bin/activate
+
+
+https://github.com/codermrhasan/drf-todo
+
+http://localhost:8000/admin/todos/todo/add/
+
+
+https://github.com/nikeshkrjha/todo-app-drf
+	- Clone ==> https://github.com/nikeshkrjha/todo-app-drf.git
+
+
+
+https://github.com/shivi74/django-drf-todo
+	- Clone ==> https://github.com/shivi74/django-drf-todo.git
+
+
+
+
